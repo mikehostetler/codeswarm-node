@@ -1,0 +1,16 @@
+{
+  "name": "vouch-node",
+  "version": "0.0.1",
+  "description": "Plugin for testing Node modules in Vouch-CD",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BrowserSwarm/vouch-node.git"
+  },
+  "author": "BrowserSwarm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrowserSwarm/vouch-node/issues"
+  },
+  "homepage": "https://github.com/BrowserSwarm/vouch-node"
+}
