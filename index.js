@@ -15,18 +15,18 @@ function init(cb) {
 
 exports.prepare = prepare;
 
-function prepare(build, worker) {
-  worker.command('npm', ['install']);
-  worker.end();
+function prepare(build, stage) {
+  stage.command('npm', ['install']);
+  stage.end();
 }
 
 /// test
 
 exports.test = test;
 
-function test(build, worker) {
-  worker.command('npm', ['test']);
-  worker.end();
+function test(build, stage) {
+  stage.command('npm', ['test']);
+  stage.end();
 }
 
 // exports.analyze = ...
