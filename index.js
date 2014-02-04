@@ -17,6 +17,7 @@ exports.prepare = prepare;
 
 function prepare(build, worker) {
   worker.command('npm', ['install']);
+  worker.end();
 }
 
 /// test
@@ -25,6 +26,7 @@ exports.test = test;
 
 function test(build, worker) {
   worker.command('npm', ['test']);
+  worker.end();
 }
 
 // exports.analyze = ...
