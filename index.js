@@ -1,4 +1,9 @@
 
+/// workerImage
+
+exports.workerImage = 'node';
+
+
 /// init
 
 exports.init = init
