@@ -1,16 +1,16 @@
 {
-  "name": "vouch-node",
+  "name": "codeswarm-node",
   "version": "0.0.1",
-  "description": "Plugin for testing Node modules in Vouch-CD",
+  "description": "Plugin for testing Node modules in CodeSwarm",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/BrowserSwarm/vouch-node.git"
+    "url": "git://github.com/CodeSwarm/codeswarm-node.git"
   },
-  "author": "BrowserSwarm",
+  "author": "CodeSwarm",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BrowserSwarm/vouch-node/issues"
+    "url": "https://github.com/CodeSwarm/codeswarm-node/issues"
   },
-  "homepage": "https://github.com/BrowserSwarm/vouch-node"
+  "homepage": "https://github.com/CodeSwarm/codeswarm-node"
 }
