@@ -8,9 +8,18 @@
     "url": "git://github.com/CodeSwarm/codeswarm-node.git"
   },
   "author": "CodeSwarm",
-  "license": "MIT",
+  "license": "Apache 2",
   "bugs": {
     "url": "https://github.com/CodeSwarm/codeswarm-node/issues"
   },
-  "homepage": "https://github.com/CodeSwarm/codeswarm-node"
+  "homepage": "https://github.com/CodeSwarm/codeswarm-node",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -u tdd"
+  },
+  "keywords": [
+    "codeswarm"
+  ],
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  }
 }
